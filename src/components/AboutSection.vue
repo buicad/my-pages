@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 
-const { t, tm, locale } = useI18n()
+const { t, tm } = useI18n()
 
 function getEducations() {
   const raw = tm('about.educations')
